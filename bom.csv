@@ -8,3 +8,6 @@ SEAL-001,body,fill cap and seal,pending_measurement,estimate_concept,"Must be le
 FINISH-001,finish,corrosion-safe surface finish,pending_measurement,estimate_concept,"Finish must preserve bowing response and water compatibility."
 PLAY-001,playing_tools,bow and soft striker set,concept_only,estimate_accessory,"Playing tools for future response tests; no performance target specified."
 TEST-001,validation,microphone or accelerometer measurement setup,pending_measurement,estimate_test_need,"Needed before promoting rod, bowl, or water-bend claims."
+COUPON-001,validation,rod and attachment coupon set,pending_measurement,estimate_test_need,"Needed before defining a full rim field or rod ordering."
+LEAK-001,validation,water leak and cleanup test setup,pending_measurement,estimate_test_need,"Needed before any playable wet chamber claim."
+SERVICE-001,maintenance,rod replacement and chamber service access,pending_measurement,estimate_concept,"Service plan remains open until attachment and neck strategy are tested."

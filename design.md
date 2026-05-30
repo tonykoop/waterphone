@@ -19,6 +19,21 @@ response. The useful design question is therefore not "what exact note does
 each rod play?" but "which rod materials, attachment methods, bowl forms, and
 water fills produce controllable bends without choking the sound?"
 
+## L2 Subsystem Plan
+
+- Bowl and chamber: keep bowl form, material, seam strategy, fill access, and
+  leak control together so water handling is not separated from resonance.
+- Neck and handle: treat the neck as both player interface and possible
+  service/fill path until tests prove which duties it should carry.
+- Rod field: test a small rod-and-rim coupon set before defining a full ring,
+  ordering, or pitch map.
+- Rod attachment: compare welded, brazed, threaded, clamped, and isolated
+  approaches for sustain, serviceability, water safety, and bowing noise.
+- Playing response: evaluate bowed, struck, scraped, and hybrid gestures as
+  separate response modes.
+- Validation: keep leak, corrosion, handling noise, water slosh, rod response,
+  and bowl response as separate gates before any CAD/DXF promotion.
+
 ## Parametric Intent
 
 The first real design table should vary these parameters only after bench
@@ -33,9 +48,12 @@ measurement:
 - Water fill: repeatable fill marks and tilt response.
 - Excitation: bow hair/rosin compatibility, striker hardness, and handling
   noise.
+- Corrosion and cleanup: water contact, drying path, service access, and
+  finish compatibility.
+- Attachment service: replacement strategy for failed rods or noisy joints.
 
 No exact dimensions, rod lengths, rod pitches, fill volumes, DXF coordinates,
-or acoustic targets are asserted in this L1 packet.
+or acoustic targets are asserted in this L2 packet.
 
 ## Measurement Plan
 
@@ -48,6 +66,8 @@ or acoustic targets are asserted in this L1 packet.
 4. Record whether bowing, striking, and combined gestures remain controllable.
 5. Promote only measured and reviewed data into future CAD, DXF, or tuning
    authority.
+6. Tie any future cut-list row to measured bowl, rod, joint, and leak-test
+   evidence before material ordering.
 
 ## Authority Boundary
 
