@@ -2,11 +2,12 @@
 
 # Waterphone
 
-Status: L1 V5 concept / pending-measurement build packet. This repo describes
+Status: L2 V5 concept / pending-measurement build packet. This repo describes
 a waterphone design study with a resonator bowl, central neck, tuned rim rods,
 and internal water pitch-bend behavior, but it contains no fabricated CAD
 geometry, DXF coordinates, measured tuning, acoustic values, or shop-ready
-dimensions.
+dimensions. The L2 uplift adds a subsystem plan, candidate cut-list, and
+clearer test gates without promoting fabrication authority.
 
 ## Thesis
 
@@ -36,6 +37,8 @@ of a tuned scale.
 
 - `design.md` - concept mechanism and parametric intent.
 - `bom.csv` - estimated material and subsystem list.
+- `cut-list.csv` - candidate part ledger with all geometry pending
+  measurement.
 - `visual-output-register.csv` - V5 authority register.
 - `cad/mcp-session-log.md` - QMD and no-MCP/no-CAD provenance.
 - `decision-record.md` - design choices and open questions.
