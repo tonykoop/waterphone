@@ -2,12 +2,16 @@
 
 # Waterphone
 
-Status: L2 V5 concept / pending-measurement build packet. This repo describes
+**Status:** L2 V5 build-packet candidate
+
+L2 V5 concept / pending-measurement build packet. This repo describes
 a waterphone design study with a resonator bowl, central neck, tuned rim rods,
 and internal water pitch-bend behavior, but it contains no fabricated CAD
 geometry, DXF coordinates, measured tuning, acoustic values, or shop-ready
-dimensions. The L2 uplift adds a subsystem plan, candidate cut-list, and
-clearer test gates without promoting fabrication authority.
+dimensions. The parametric `cad/waterphone.scad` is a schematic ASSUMPTION-only
+envelope, not fabrication authority. The L2 packet adds a subsystem plan,
+candidate cut-list, sourcing/validation/risk scaffolds, and clearer test gates
+without promoting fabrication authority.
 
 ## Thesis
 
@@ -40,7 +44,13 @@ of a tuned scale.
 - `cut-list.csv` - candidate part ledger with all geometry pending
   measurement.
 - `visual-output-register.csv` - V5 authority register.
-- `cad/mcp-session-log.md` - QMD and no-MCP/no-CAD provenance.
+- `sourcing.csv` - spec-first sourcing scaffold (pending measurement).
+- `validation.csv` - measurement-gate scaffold (bowl/rod/wet/leak/safety).
+- `risks.md` - concept-level risk register.
+- `drawing-brief.md` - first-drawings brief + authority notes.
+- `cad/waterphone.scad` - schematic build-envelope (bowl + neck + rod array); ASSUMPTION-only params, not fabrication authority.
+- `cad/mcp-session-log.md` - QMD and CAD/OpenSCAD provenance.
+- `evolution/` - StudioPipeline evolution-pipeline Stage 0 intake (manifest, design-intent, revisions).
 - `decision-record.md` - design choices and open questions.
 
 ## Status Boundary
