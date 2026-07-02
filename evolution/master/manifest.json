@@ -1,0 +1,26 @@
+{
+  "product": "waterphone",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/waterphone.scad",
+      "format": "openscad-source",
+      "sha256": "85e8df8884a8024146e42822c2843a10009e6c4219776541073ed12945e2f113",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Schematic build-envelope (bowl + neck + rod array). ALL numeric params are labeled ASSUMPTIONs for scale only, NOT design claims. Rod tuning/count/pitch out of scope. Renders clean (exit 0)."
+    },
+    {
+      "path": "wolfram/waterphone-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "fe6363a03d9d8f35d0b86a93fff20b28556d45e19ae484e3c449301b4cb1a7e1",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Parametric symbolic rod/bowl/water-coupling model with estimate placeholders only; source-only, not executed."
+    }
+  ],
+  "notes": "L2 CONCEPT packet: no design table exists yet and design.md asserts NO exact dimensions. The OpenSCAD source is a schematic envelope only; the first dimensional design table is authored after bench measurement (design.md Measurement Plan). No STEP export. Gate A (Alpha workspace compile) not yet run."
+}

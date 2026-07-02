@@ -1,0 +1,8 @@
+item_id,subsystem,spec,candidate_source,authority,price_status,notes
+SRC-BOWL-001,resonator,stainless or bronze bowl blank (alloy/form/wall TBD),metal supplier or spun-bowl vendor,pending_measurement,not_quoted,"Alloy, diameter, depth, and wall are pending measurement; spec-first only, no live price verified."
+SRC-ROD-001,rod_field,bowable metal rod stock (stainless/bronze/brass, dia TBD),metal supplier,pending_measurement,not_quoted,"Rod material family and diameter unmeasured; coupon set precedes any bulk order."
+SRC-NECK-001,body,central neck/handle stock or fitting,metal supplier,pending_measurement,not_quoted,"Neck duties (grip vs fill/service) undecided; geometry pending."
+SRC-SEAL-001,body,fill cap / seal + gasket,hardware supplier,pending_measurement,not_quoted,"Must be leak-tested; seal spec pending wet-chamber trials."
+SRC-FINISH-001,finish,corrosion-safe passivation / finish,finishing vendor,pending_measurement,not_quoted,"Finish must preserve bowing response and water compatibility."
+SRC-PLAY-001,playing_tools,bow + soft striker set,music/accessory supplier,concept_only,not_quoted,"Accessory candidates for response tests; no performance target."
+SRC-TEST-001,validation,mic/accelerometer measurement rig,test-equipment supplier,pending_measurement,not_quoted,"Needed before promoting rod/bowl/water-bend claims."

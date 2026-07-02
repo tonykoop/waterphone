@@ -1,0 +1,11 @@
+test_id,gate,target_metric,predicted,measured,units,method,result,action_if_fail
+VAL-001,bowl dry response,bowl fundamental + partials,unmeasured,unmeasured,Hz,impulse + mic/accelerometer FFT,pending,reference only; characterize before rod field
+VAL-002,rod coupon response,dry rod fundamental vs length,unmeasured,unmeasured,Hz,strike + FFT on coupon set,pending,revise rod material/length assumptions
+VAL-003,rod attachment,sustain + bowing noise by joint type,unmeasured,unmeasured,s / qualitative,welded vs brazed vs threaded vs clamped coupons,pending,select joint before full rim field
+VAL-004,wet bowl response,pitch shift vs water fill,unmeasured,unmeasured,cents,repeatable fill marks + FFT,pending,document controllable fill range
+VAL-005,tilt-bend behavior,pitch bend vs tilt angle,unmeasured,unmeasured,cents/deg,tilt rig + recording,pending,confirm bend is controllable not choking
+VAL-006,leak + cleanup,no leak; drains/dries,unmeasured,unmeasured,pass/fail,fill/seal/tip test,pending,rework seal before any wet-play claim
+VAL-007,corrosion,finish survives water contact,unmeasured,unmeasured,pass/fail,soak + inspect,pending,revise finish/passivation
+VAL-008,rod edge safety,no sharp rod ends/burrs,unmeasured,unmeasured,pass/fail,tactile inspect each rod,pending,deburr affected rod
+VAL-009,handling noise,water slosh not intrusive,unmeasured,unmeasured,qualitative,play test,pending,adjust fill / baffle
+VAL-010,release gate,human review before CAD/DXF promotion,unmeasured,unmeasured,signed,owner sign-off,pending,keep concept-only
